@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Color</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            height: 100vh;
+            background-color:white;
+
+        }
+        .hexaCard{
+            border: 3px solid red;
+            background-color: green;
+            padding: 20px;
+            color:white;
+            border-radius: 10px;
+        }
+        span{
+            font-size: 3rem;
+
+        }
+        button{
+            padding: 10px;
+            font-size: 1rem;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hexaCard">
+            <h1>Random Hex Color Generation
+            </h1>
+            <span id="colorGenerate">#ffffff</span>
+            <hr>
+            <button id="btn">Generate</button>
+        </div>
+    </div>
+</body>
+</html>
